@@ -1,0 +1,27 @@
+MeasureId,CategoryID,Measure,Category,Data_Value_Unit,Data_Value_Type
+PHLTH,HLTHSTAT,Physical health not good for >=14 days among adults aged >=18 years,Health Status,%,Crude prevalence
+GHLTH,HLTHSTAT,Fair or poor self-rated health status among adults aged >=18 years,Health Status,%,Crude prevalence
+CHECKUP,PREVENT,Visits to doctor for routine checkup within the past year among adults aged >=18 years,Prevention,%,Crude prevalence
+CASTHMA,HLTHOUT,Current asthma among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+TEETHLOST,HLTHOUT,All teeth lost among adults aged >=65 years,Health Outcomes,%,Crude prevalence
+MHLTH,HLTHSTAT,Mental health not good for >=14 days among adults aged >=18 years,Health Status,%,Crude prevalence
+DIABETES,HLTHOUT,Diagnosed diabetes among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+CSMOKING,RISKBEH,Current smoking among adults aged >=18 years,Health Risk Behaviors,%,Crude prevalence
+ACCESS2,PREVENT,Current lack of health insurance among adults aged 18-64 years,Prevention,%,Crude prevalence
+BINGE,RISKBEH,Binge drinking among adults aged >=18 years,Health Risk Behaviors,%,Crude prevalence
+LPA,RISKBEH,No leisure-time physical activity among adults aged >=18 years,Health Risk Behaviors,%,Crude prevalence
+ARTHRITIS,HLTHOUT,Arthritis among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+STROKE,HLTHOUT,Stroke among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+KIDNEY,HLTHOUT,Chronic kidney disease among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+DENTAL,PREVENT,Visits to dentist or dental clinic among adults aged >=18 years,Prevention,%,Crude prevalence
+CERVICAL,PREVENT,Cervical cancer screening among adult women aged 21-65 years,Prevention,%,Crude prevalence
+COPD,HLTHOUT,Chronic obstructive pulmonary disease among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+COREW,PREVENT,"Older adult women aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years",Prevention,%,Crude prevalence
+OBESITY,HLTHOUT,Obesity among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+CANCER,HLTHOUT,Cancer (excluding skin cancer) among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+COLON_SCREEN,PREVENT,"Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years",Prevention,%,Crude prevalence
+SLEEP,RISKBEH,Sleeping less than 7 hours among adults aged >=18 years,Health Risk Behaviors,%,Crude prevalence
+MAMMOUSE,PREVENT,Mammography use among women aged 50-74 years,Prevention,%,Crude prevalence
+CHD,HLTHOUT,Coronary heart disease among adults aged >=18 years,Health Outcomes,%,Crude prevalence
+COREM,PREVENT,"Older adult men aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening",Prevention,%,Crude prevalence
+DEPRESSION,HLTHOUT,Depression among adults aged >=18 years,Health Outcomes,%,Crude prevalence
