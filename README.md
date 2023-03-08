@@ -2,9 +2,34 @@
 # THIS README IS UNDER ACTIVE EDITING AS THE PROJECT PROGRESSES.
 
 
-# Overview
-This is a UCF Data Analytics Bootcamp Final Project. The aim of this project is to develop an accurate and reliable model for predicting depression rates in a given FIPS code area. This project utilizes various primary parameters such as health, employment, economics, education, transportation, and weather to predict the depression rates. The datasets used in this project are being sourced from various government agencies and will be linked via the FIPS code. By combining and analyzing these datasets, we hope to create a powerful tool that can assist in identifying areas that may be at a higher risk of depression, and aid in the development of appropriate policies and interventions to reduce depression rates.
+## 1. Project Management
 
+### 1.1 Project Overview:
+This is a UCF Data Analytics Bootcamp Final Project. The aim of this project is to develop an accurate and reliable regression model for predicting depression rates in a given FIPS code area utilizing various parameters such as health, employment, economics, education, transportation and weather. 
+
+### 1.2 Project Breakdown:
+The end-to-end build of this project will have 5 steps:
+1) We will select our input data for the model.
+2) We will clean our raw data in order for it to be effectively stored and used within the model.
+3) We will design and build our database to store this data.
+4) We will design and build our machine learning model.
+5) We will design and build our visualizations to derive key insights from our analysis.
+
+### 1.3 Team and Collaboration:
+Our team consists of 5 members: Chris Cornelius, Ryan Neblett, Ali Manekia, Yessika Zurita and Ben Pietrancosta. Our collaboration can be broken down into 2 main components:
+ - Communication -> We primarily used Slack and Zoom. We have a group Slack thread over which topics can be discussed and resolved as they arise. However, we also have scheduled post-class, 15 minute meets on Mondays and Wednesdays to review the status of our various tasks.
+ - Documentation -> We're using Github and Google Drive to share documentation. The idea is that materials required to make the model work are stored and organized on Github. For example, we have our input data, our pre-processing JPN, our machine-learning model code and so on. 
+For all supplemental documentation such as contact information, roles, task assignments and so on, we use Google Drive.
+
+
+### 1.4 Timeline:
+We have 3 weeks to complete this project. Each week we will be required to meet pre-defined deliverables.  
+
+
+## 2. Data pre-processing
+### 2.1 Data sourcing:
+To define a database in which there are multiple tables that can be merged into a single meta-table used for a regression analysis, we must have a common primary key across the aforementioned data sets. We decided to use county FIPS ID (Federal Information Processing Standard) as our common column for joins.
+Consequently our data is sourced from government websites that host data, examples include the CDC (Center for Disease Control), the Department of Transportation and the US Bureau of Labor Statistics.
 
 ## Development
 The team sourced data tables from the primary parameters and began preprocessing them into usable tables. 
