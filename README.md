@@ -21,6 +21,12 @@ Our team consists of 5 members: Chris Cornelius, Ryan Neblett, Ali Manekia, Yess
  - Documentation -> We're using Github and Google Drive to share documentation. The idea is that materials required to make the model work are stored and organized on Github. For example, we have our input data, our pre-processing JPN, our machine-learning model code and so on. 
 For all supplemental documentation such as contact information, roles, task assignments and so on, we use Google Drive.
 
+Our responsibilities can be broken down as follows:
+ - Chris -> SME in designing and implementing an ML model
+ - Ryan -> SME in designing the AWS environment
+ - Ali -> TBD
+ - Yessika -> Visualization
+ - Ben Pietrancosta -> Github manager
 
 ### 1.4 Timeline:
 We have 3 weeks to complete this project. Each week we will be required to meet pre-defined deliverables. We are expecting to spend upwards of 10 hours a week/each in order to realize the successful implementation of this project.
