@@ -43,29 +43,20 @@ The Base_Data_Preprocessed folder in this Github project includes the Jupyter no
 The IRS_Data_Preprocessed folder in this Github project includes the Jupyter notebook detailing the preprocessing work, as well as the input, output, and lookup files used during that process.  Note the input and output files are too large to reside in Github, even when compressed, and are instead being housed in Google Drive.
 Zipped input data: https://drive.google.com/file/d/17HMKhdgRNU5yGKHq19cjoxg6uv_Pf79Z/view?usp=share_link
 Zipped output table: https://drive.google.com/file/d/167KzQdsd5Jh-hvg8NogsGjKLA-qwYkK1/view?usp=share_link
-- Transportation Data Preprocessing -> Source: https://data.bts.gov/Research-and-Statistics/County-Transportation-Profiles/qdmf-cxm3
+- Transportation Data Preprocessing -> Source: https://data.bts.gov/Research-and-Statistics/County-Transportation-Profiles/qdmf-cxm3. This data set provides information concerning transportation measures per county. It was filtered down to columns which were deemed relevant to depression. Also, there is no confirmed timeframe for this data, but we are operating under the assumption that it also belongs to 2020.
+- Employment Data Preprocessing (Ryan to fill in details)
+
+## 3. Database design and build
+### 3.1 Cloud environment:
+We'll be hosting the database on an AWS instance (Ryan to fill in details).
+
+### 3.2 Database design:
+(Insert DB schema)
 
 
-### 2.4 Transportation data pre-processing 
+## 4. The Model
 
+## 5. Visualization
 
-### 2.5 Labor data pre-processing
-
-
-## Development
-The team sourced data tables from the primary parameters and began preprocessing them into usable tables. 
-The current plan for this project is to clean the tables then run it into some form of ML model or regression. At that point, we will analyse the results to see what direction we need to push the model.
-
-Once the data is at a point that results and correlations can be made, we will visualize the data on tableau and host the project on AWS so it is publically available outside of github.
-
-## Data
-The schema is as follows. 
-### Sources
-The data for this project is being pulled from the following:
-    #Links for data sources here
-
-## The Model
-
-## Results
 
 ## Conclusions
