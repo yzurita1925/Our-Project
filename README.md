@@ -23,7 +23,16 @@ For all supplemental documentation such as contact information, roles, task assi
 
 
 ### 1.4 Timeline:
-We have 3 weeks to complete this project. Each week we will be required to meet pre-defined deliverables.  
+We have 3 weeks to complete this project. Each week we will be required to meet pre-defined deliverables. We are expecting to spend upwards of 10 hours a week/each in order to realize the successful implementation of this project.
+
+### 1.5 List of technologies:
+Below are a list of technologies we are planning to use for this project:
+ - Python & Jupyter Notebook -> To pre-process data and implement the ML model
+ - Quick DataBase Diagrams -> To design the ERD
+ - AWS -> To host our database
+ - PgAdmin -> To run our database
+ - Tableau -> For our visualizations
+ - Google Drive -> Documentation repository
 
 
 ## 2. Data pre-processing
