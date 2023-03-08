@@ -6,6 +6,7 @@
 
 ### 1.1 Project Overview:
 This is a UCF Data Analytics Bootcamp Final Project. The aim of this project is to develop an accurate and reliable regression model for predicting depression rates in a given FIPS code area utilizing various parameters such as health, employment, economics, education, transportation and weather. 
+The reason we chose this topic is because of it's relevance in the post-COVID world. Rates of depression and anxiety have greatly increased as social isolation has followed. Hopefully, this analysis allows us to better pinpoint what drives these mental fitness issues and consequently how to best address them.
 
 ### 1.2 Project Breakdown:
 The end-to-end build of this project will have 5 steps:
@@ -21,9 +22,24 @@ Our team consists of 5 members: Chris Cornelius, Ryan Neblett, Ali Manekia, Yess
  - Documentation -> We're using Github and Google Drive to share documentation. The idea is that materials required to make the model work are stored and organized on Github. For example, we have our input data, our pre-processing JPN, our machine-learning model code and so on. 
 For all supplemental documentation such as contact information, roles, task assignments and so on, we use Google Drive.
 
+Our responsibilities can be broken down as follows:
+ - Chris -> SME in designing and implementing an ML model
+ - Ryan -> SME in designing the AWS environment
+ - Ali -> TBD
+ - Yessika -> Visualization
+ - Ben Pietrancosta -> Github manager
 
 ### 1.4 Timeline:
-We have 3 weeks to complete this project. Each week we will be required to meet pre-defined deliverables.  
+We have 3 weeks to complete this project. Each week we will be required to meet pre-defined deliverables. We are expecting to spend upwards of 10 hours a week/each in order to realize the successful implementation of this project.
+
+### 1.5 List of technologies:
+Below are a list of technologies we are planning to use for this project:
+ - Python & Jupyter Notebook -> To pre-process data and implement the ML model
+ - Quick DataBase Diagrams -> To design the ERD
+ - AWS -> To host our database
+ - PgAdmin -> To run our database
+ - Tableau -> For our visualizations
+ - Google Drive -> Documentation repository
 
 
 ## 2. Data pre-processing
@@ -43,41 +59,20 @@ The Base_Data_Preprocessed folder in this Github project includes the Jupyter no
 The IRS_Data_Preprocessed folder in this Github project includes the Jupyter notebook detailing the preprocessing work, as well as the input, output, and lookup files used during that process.  Note the input and output files are too large to reside in Github, even when compressed, and are instead being housed in Google Drive.
 Zipped input data: https://drive.google.com/file/d/17HMKhdgRNU5yGKHq19cjoxg6uv_Pf79Z/view?usp=share_link
 Zipped output table: https://drive.google.com/file/d/167KzQdsd5Jh-hvg8NogsGjKLA-qwYkK1/view?usp=share_link
+- Transportation Data Preprocessing -> Source: https://data.bts.gov/Research-and-Statistics/County-Transportation-Profiles/qdmf-cxm3. This data set provides information concerning transportation measures per county. It was filtered down to columns which were deemed relevant to depression. Also, there is no confirmed timeframe for this data, but we are operating under the assumption that it also belongs to 2020.
+- Employment Data Preprocessing (Ryan to fill in details)
+
+## 3. Database design and build
+### 3.1 Cloud environment:
+We'll be hosting the database on an AWS instance (Ryan to fill in details).
+
+### 3.2 Database design:
+(Insert DB schema)
 
 
-### 2.3 IRS Refund Data Preprocessing
+## 4. The Model
 
-Source: https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi
+## 5. Visualization
 
-The data provided statistics about tax returns filed with the IRS for calendar year 2020.  The data was aggregated at a ZIP code level, which is more granular than the census bureau’s FIPS-level data from the Health section, so the data was preprocessed using a ZIP-to-FIPS lookup table (source: https://www.huduser.gov/portal/datasets/usps_crosswalk.html).  Note that several of the ZIP codes in the IRS data were dummied out (either 0 or 99999) to indicate unincorporated areas of the US that are sparsely populated.  These were not represented in the health data where the target variable exists and so were dropped.
-
-The IRS_Data_Preprocessed folder in this Github project includes the Jupyter notebook detailing the preprocessing work, as well as the input, output, and lookup files used during that process.  Note the input and output files are too large to reside in Github, even when compressed, and are instead being housed in Google Drive.
-
-Zipped input data: https://drive.google.com/file/d/17HMKhdgRNU5yGKHq19cjoxg6uv_Pf79Z/view?usp=share_link
-
-Zipped output table: https://drive.google.com/file/d/167KzQdsd5Jh-hvg8NogsGjKLA-qwYkK1/view?usp=share_link
-
-
-### 2.4 Transportation data pre-processing 
-
-
-### 2.5 Labor data pre-processing
-
-
-## Development
-The team sourced data tables from the primary parameters and began preprocessing them into usable tables. 
-The current plan for this project is to clean the tables then run it into some form of ML model or regression. At that point, we will analyse the results to see what direction we need to push the model.
-
-Once the data is at a point that results and correlations can be made, we will visualize the data on tableau and host the project on AWS so it is publically available outside of github.
-
-## Data
-The schema is as follows. 
-### Sources
-The data for this project is being pulled from the following:
-    #Links for data sources here
-
-## The Model
-
-## Results
 
 ## Conclusions
