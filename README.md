@@ -60,7 +60,7 @@ The IRS_Data_Preprocessed folder in this Github project includes the Jupyter not
 Zipped input data: https://drive.google.com/file/d/17HMKhdgRNU5yGKHq19cjoxg6uv_Pf79Z/view?usp=share_link
 Zipped output table: https://drive.google.com/file/d/167KzQdsd5Jh-hvg8NogsGjKLA-qwYkK1/view?usp=share_link
 - Transportation Data Preprocessing -> Source: https://data.bts.gov/Research-and-Statistics/County-Transportation-Profiles/qdmf-cxm3. This data set provides information concerning transportation measures per county. It was filtered down to columns which were deemed relevant to depression. Also, there is no confirmed timeframe for this data, but we are operating under the assumption that it also belongs to 2020.
-- Employment Data Preprocessing (Ryan to fill in details)
+- Employment Data Preprocessing -> Source: https://www.bls.gov/cew/downloadable-data-files.htm. This data set provides a log of the average salary for various job occupations. The data is sorted by FIPS and by NAICS Industy codes. We downloaded the annual singlefile dataset as opposed to quarterly to get as much datapoints in as possible on one table. The table includes over the year changes in income as well as specific location data per industry recording income averages and taxible wages. We determined that for our purposes we only needed the FIPS code, Industry code and average wage columns. These were cleaned and put in a separate csv. A table of the job titles that correspond with their industry code was also generated to be used as as a foreign key for data lookup later.
 
 ## 3. Database design and build
 ### 3.1 Cloud environment:
