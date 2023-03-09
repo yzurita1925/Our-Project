@@ -72,7 +72,16 @@ We'll be hosting the database on an AWS instance (Ryan to fill in details).
 (Insert DB schema)
 
 
-## 4. The Model
+## 4. The Models
+
+The Model
+Because we are predicting a continuous numerical variable, there are a set of specific machine learning models that we can consider for the project.  They include:
+
+1.	Linear regression – the model is the least resource-intensive but can also overfit or be sensitive to outliers.  We will apply feature selection/feature reduction methods to see if we can improve performance but will consider this as the baseline for the project.
+2.	LASSO regression – LASSO regression is a variation of regression that reduces the coefficient of some variables to zero, effectively conducting feature selection as part of the regression process.  This might also inform further iterations of linear regression with a smaller data set or revised data to feed into other models.
+3.	Random forest regression – this is a variation of the random forest classification model used in the program; instead of predicting a class, the model attempts to predict a specific numeric outcome based on the path traveled through the decision tree.  This might prove useful if the relationship between the target and independent variables is non-linear.
+4.	
+The methodology for each will be to conduct some sort of preprocessing and scaling against the base flat table based on the conditions the model requires and then use a cross-validation technique to hypertune (using a split of train/test data) before running a set of segregated validation data through for final results.
 
 ## 5. Visualization
 
